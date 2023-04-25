@@ -1,0 +1,32 @@
+.skill-box{
+    transition: 2s;
+    font-weight: bold;
+    font-size:10px;
+    display: flex;
+    height: 15vh;
+    width: 16vh;
+   border-radius: 2vh;
+    background: white;
+    margin: 4vh;
+    margin-left: 0.1vh;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+   
+}
+.skill-box img{
+    height: 12vh;
+}
+.skill-box img:hover{
+    transition: 1s linear;
+    height: 16vh;
+}
+
+.skills{
+    transition: 2s;
+    margin-top: 2vh;
+    justify-content: center;
+    place-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}

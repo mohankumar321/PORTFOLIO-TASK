@@ -1,0 +1,80 @@
+.wel-box{
+   
+    justify-content: center;
+    display: flex;
+    text-align: left;
+   
+    font-family: sans-serif;
+}
+.wel-abt{
+     margin-top: 7vh;
+    letter-spacing: 10px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.wel-nme{
+     background: -webkit-linear-gradient(#1234f1, #05c7e9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 400px;
+    
+}
+
+.wel-nme:hover{
+    animation: name 5s infinite;
+    background: -webkit-linear-gradient(#12b9f1, #bf05e9);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-size: 400px;
+   
+}
+@keyframes name {
+    
+}
+.wel-dscpt{
+    letter-spacing: 10px;
+    font-weight: bold;
+    font-size: 100px;
+    background: -webkit-linear-gradient(#1234f1, #05c7e9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.wel-abt {
+   font-size: 120px;
+    background: -webkit-linear-gradient(#1234f1, #05c7e9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+
+  .animate-charcter
+  {
+     text-transform: uppercase;
+    background-image: linear-gradient(
+      -225deg,
+      #f321e8 0%,
+      #134fe7 29%,
+      #04bd95 67%,
+      #00d0ff 100%
+    );
+   
+    background-size: 250% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 3s linear infinite;
+    display: inline-block;
+        font-size: 250px;
+  }
+  
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+  
+  

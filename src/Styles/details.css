@@ -1,0 +1,44 @@
+.det-box{
+    border-radius: 1vh;
+    margin-left: 8vh;
+    font-weight: 1000;
+   font-family: sans-serif;
+   padding: 1vh;
+   background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgb(5, 0, 84) 0%, rgb(37, 1, 72) 100%, rgb(18, 139, 215) 100%);;
+  text-align: left;
+   height: 5vh;
+   width: 57vh;
+   margin-top: 3vh;
+   display: flex;
+   letter-spacing: 10px;
+   align-items: center;
+    font-size: 50px;
+   color: rgb(220, 241, 249);
+   box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 73, 87, 0.1) 0px 24px 80px;
+    
+}
+.det-box b{
+    color: rgb(0, 255, 238);
+    border-radius: 5vh;
+    margin-left: 1vh;
+    font-weight: bolder;
+}
+
+.details{
+    border-radius: 2vh;
+   color: rgb(55, 18, 218);
+   background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgb(5, 202, 169) 0%, rgb(31, 155, 186) 100%, rgb(35, 157, 233) 100%);;
+    margin-left: 55vh;
+    justify-content: center;
+   margin-top: 10vh;
+    height: 35vh;
+    width: 75vh;
+   
+    
+}
+.details-head{
+    border-radius: 5vh;
+    display: flex;
+    flex-direction: column;
+    
+}

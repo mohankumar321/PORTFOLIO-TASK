@@ -1,0 +1,10 @@
+.projects{
+    display: grid;
+    margin-top: 10vh;
+}
+
+.proj{
+    border: 5px solid black;
+    height: 10vh;
+    width: 10vh;
+}

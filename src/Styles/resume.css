@@ -1,0 +1,9 @@
+.resume{
+    margin-top: 1vh;
+    font-size: 80px;
+    border: 1 px solid black;
+    height: 10vh;
+}
+.resume img {
+    height: 70vh; 
+}
